@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Game Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="title" align="center">Game Tracker</h1>
+      <div id="userInput">
+        <input id="gameInput" />
+        <button id="addButton">Add</button>
+        <label>
+          <input type="radio" name="status" value="want-to-play" />
+          Want to Play
+        </label>
+        <label>
+          <input type="radio" name="status" value="playing" />
+          Playing
+        </label>
+        <label>
+          <input type="radio" name="status" value="completed" />
+          Completed
+        </label>
+      </div>
+      <div class="wtpList">
+        <h3 id="wtp">Want to Play</h3>
+        <ul>
+          <li>game 1</li>
+          <li>game 1</li>
+          <li>game 1</li>
+        </ul>
+      </div>
+      <div class="playinglist">
+        <h3 id=" pList">Playing</h3>
+        <ul>
+          <li>game 1</li>
+          <li>game 1</li>
+          <li>game 1</li>
+        </ul>
+      </div>
+      <div class="cList">
+        <h3 id="wtp">Completed</h3>
+        <ul>
+          <li>game 1</li>
+          <li>game 1</li>
+          <li>game 1</li>
+        </ul>
+      </div>
+    </main>
+    <script src="app.js" defer></script>
+  </body>
+</html>
