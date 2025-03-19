@@ -9,7 +9,9 @@
   font-weight: 700;
   font-style: normal;
 }
-
+body {
+  background-color: EFECCA;
+}
 * {
   margin: 1;
   padding: 1;
@@ -17,7 +19,46 @@
   box-sizing: border-box;
 }
 
+.status {
+  margin: auto;
+  width: fit-content;
+  padding: 10;
+  justify-content: center;
+  align-items: center;
+}
+
 .userInput {
-  align-content: "center";
-  padding: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+.gamesList {
+  display: flex;
+}
+
+.wtpList,
+.playinglist,
+.cList {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #222;
+  color: white;
+  min-height: 200px;
+}
+
+.wtpList {
+  background-color: #403f4c;
+}
+.playinglist {
+  background-color: #bc9cb0;
+}
+.cList {
+  background-color: #636940;
 }

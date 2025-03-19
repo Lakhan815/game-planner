@@ -14,9 +14,11 @@
   <body>
     <main>
       <h1 class="title" align="center">Game Tracker</h1>
-      <div id="userInput">
-        <input id="gameInput" />
-        <button id="addButton">Add</button>
+      <div class="userInput">
+        <input class="gameInput" />
+        <button class="addButton">Add</button>
+      </div>
+      <div class="status">
         <label>
           <input type="radio" name="status" value="want-to-play" />
           Want to Play
@@ -30,29 +32,31 @@
           Completed
         </label>
       </div>
-      <div class="wtpList">
-        <h3 id="wtp">Want to Play</h3>
-        <ul>
-          <li>game 1</li>
-          <li>game 1</li>
-          <li>game 1</li>
-        </ul>
-      </div>
-      <div class="playinglist">
-        <h3 id=" pList">Playing</h3>
-        <ul>
-          <li>game 1</li>
-          <li>game 1</li>
-          <li>game 1</li>
-        </ul>
-      </div>
-      <div class="cList">
-        <h3 id="wtp">Completed</h3>
-        <ul>
-          <li>game 1</li>
-          <li>game 1</li>
-          <li>game 1</li>
-        </ul>
+      <div class="gamesList">
+        <div class="wtpList">
+          <h3 id="wtp">Want to Play</h3>
+          <ul>
+            <li>game 1</li>
+            <li>game 1</li>
+            <li>game 1</li>
+          </ul>
+        </div>
+        <div class="playinglist">
+          <h3 id=" pList">Playing</h3>
+          <ul>
+            <li>game 1</li>
+            <li>game 1</li>
+            <li>game 1</li>
+          </ul>
+        </div>
+        <div class="cList">
+          <h3 id="wtp">Completed</h3>
+          <ul>
+            <li>game 1</li>
+            <li>game 1</li>
+            <li>game 1</li>
+          </ul>
+        </div>
       </div>
     </main>
     <script src="app.js" defer></script>
