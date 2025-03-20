@@ -62,3 +62,14 @@ body {
 .cList {
   background-color: #636940;
 }
+
+ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 20%;
+}
+
+ul li.checked {
+  color: #555;
+  text-decoration: line-through;
+}
